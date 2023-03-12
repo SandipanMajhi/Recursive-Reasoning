@@ -1,0 +1,29 @@
+Given a question turn it into a sentence.
+
+Q: Will the Albany in Georgia reach a hundred thousand occupants before the one in New York?
+A: The Albany in Georgia will reach a hundred thousand occupants before the one in New York.
+
+Q: Is the language used in Saint Vincent and the Grenadines rooted in English?
+A: The language used in Saint Vincent and the Grenadines is rooted in English.
+
+Q: Would the top of Mount Fuji stick out of the Sea of Japan?
+A: The top of Mount Fuji would stick out of the Sea of Japan.
+
+Q: Was Lil Jon's top ranked Billboard song a collaboration with a member of The Lox?
+A: Lil Jon's top ranked Billboard song was a collaboration with a member of the Lox.
+
+Q: Can the Swiss Guard fill the Virginia General Assembly chairs?
+A: The Swiss Guard can fill the Virginia General Assembly chairs.
+
+Q: Could Lil Wayne legally operate a vehicle on his own at the beginning of his career?
+A: Lil Wayne could legally operate a vehicle on his own at the beginning of his career.
+
+Q: Did Brazilian jiu-jitsu Gracie founders have at least a baker's dozen of kids between them?
+A: Brazilian jiu-jitsu Gracie founders had at least a baker's dozen of kids between them.
+
+Q: Would Achilles dominate Legolas in a hypothetical fight?
+A: Achilles would dominate Legolas in a hypothetical fight.
+
+Q: Could Bernie Sanders visit the Metropolitan Museum of Art twenty times for under two hundred dollars?
+A: Bernie Sanders could visit the Metropolitan Museum of Art twenty times for under two hundred dollars.
+

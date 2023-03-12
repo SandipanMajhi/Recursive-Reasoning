@@ -1,0 +1,33 @@
+From the following determine if the hypothesis can be inferred from the premise.
+
+Premise: A young boy is not very crazy about eating the food his parents cooked.
+Hypothesis: There is a boy who dislikes eating his food.
+Options: entailment, contradiction, neutral.
+A: entailment
+
+Premise: The procedure was tedious and left the patient saddle sore.
+Hypothesis: The patient is walking down the street.
+Options: entailment, contradiction, neutral.
+A: contradiction
+
+Premise: A man stands in a crowd on the steps of city hall in Newark, New Jersey throwing his arms wide and yelling.
+Hypothesis: The man is protesting the closing of a park in Newark.
+Options: entailment, contradiction, neutral.
+A: neutral
+
+Premise: A young woman in a swimsuit and hat is photographed from behind on a beach as she walks across the sand during sunset.
+Hypothesis: The woman is photographed from the front in a bathing suit and hat standing on the sand during sunset.
+Options: entailment, contradiction, neutral.
+A: contradiction
+
+Premise: A girl has selected her wool and is preparing to chisel it.
+Hypothesis: The girl is preparing to spin the wool into yarn.
+Options: entailment, contradiction, neutral.
+A: neutral
+
+Premise: An A Girl, an advanced sleeper, begins to hear a hum in her ears and tries to keep it secret.
+Hypothesis: A girl knows about that sound.
+Options: entailment, contradiction, neutral.
+A: entailment
+
+
