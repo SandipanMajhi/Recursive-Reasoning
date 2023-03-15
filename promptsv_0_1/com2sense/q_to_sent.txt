@@ -1,0 +1,25 @@
+Given a statement, generalize the sentence by starting the sentence with "if" and change personal pronouns with "one".
+
+Q: Tim wanted to go to the bar, so he thought it would be better to drive there than order an Uber.
+A: If Tim wanted to go to the bar, he thought it would be better to drive there than order an Uber.
+
+Q: A child with braces is likely to turn down an offer of chewy candy.
+A: If a child with braces is likely to turn down an offer of chewy candy.
+
+Q: Becky is allergic to legumes, while Nancy is allergic to tree nuts. Nancy is more likely than Becky to eat peanuts.
+A: If Becky is allergic to legumes, while Nancy is allergic to tree nuts, Nancy is more likely to eat peanuts than Becky.
+
+Q: My brother needs a kidney transplant and a heart transplant, so I offered to donate my kidney.
+A: If one's brother needs a kidney transplant and a heart transplant, one would offer to donate one's kidney.
+
+Q: For a task requiring extreme concentration, it is easier to work on it 10 hours per day for 5 days than 5 hours per day for 10 days.
+A: If a task requires extreme concentration, it is easier to work on it 10 hours per day for 5 days than 5 hours per day for 10 days.
+
+Q: Florence has 2 apples, 3 oranges and 1 banana. Is one of them yellow.
+A: If Florence has 2 apples, 3 oranges and 1 banana, one of them is yellow.
+
+Q: James saw Kyle copying off his test, so he asked him twice to stop, then got the teacher involved.
+A: If James saw Kyle copying off his test, he asked him twice to stop, then got the teacher involved.
+
+Q: Since I'm feeling warm, drinking some ice water would help cool me down.
+A: If one is feeling warm, drinking some ice water would help cool him down.

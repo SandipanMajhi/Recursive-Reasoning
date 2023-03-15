@@ -29,8 +29,10 @@ if __name__ == "__main__":
     args = args.parse_args()
     if args.dataset_name == "com2sense":
         if args.mode == "normal":
-            args.data_filename =  f"./data/{args.dataset_name}/dev.json"
-            args.out_filename = f"./data/{args.dataset_name}/dev_G_normal.pkl_{args.seed}"
+            # args.data_filename =  f"./data/{args.dataset_name}/dev.json"
+            args.data_filename =  f"./data/{args.dataset_name}/dev_modified.json" ## we put the modified file
+            # args.out_filename = f"./data/{args.dataset_name}/dev_G_normal.pkl_{args.seed}"
+            args.out_filename = f"./data/{args.dataset_name}/dev_G_normal_modified.pkl_{args.seed}"
         elif args.mode == "tilde":
             args.data_filename = f"./data/{args.dataset_name}/bothdev.Q.json"
             args.out_filename = f"./data/{args.dataset_name}/dev_G_tilde.pkl_{args.seed}"
@@ -106,7 +108,8 @@ if __name__ == "__main__":
     for sample_idx, sample in tqdm(enumerate(samples), total=len(samples)):
         if args.dataset_name == "com2sense":
             if args.mode == "normal":
-                G = generator.create_graph(sample["sent"])
+                # G = generator.create_graph(sample["sent"])
+                G = generator.create_graph(sample["Q"]) ## replaced by modified
             else:
                 G = generator.create_graph(sample["Q"], sample["Q_tilde"]) 
         elif args.dataset_name == "csqa2":

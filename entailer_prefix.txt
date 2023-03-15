@@ -1,0 +1,23 @@
+Given two sentences infer a new sentence that connects the two sentences.
+
+Q: If someone loves buffalo wings they enjoy capsaicin.
+Q: Capsaicin is used in sauce for spicy food.
+A: The sauce in buffalo wings is spicy.
+
+Q: Marist students would have to petition to get a rowing team.
+Q: Maris is a religious school, and they do not offer sport teams.
+A: Rowing is a sport and religious schools do not allow sport.
+
+Q: Brooke Shields could have succeeded at University of Pennsylvania.
+Q: Brooke Shields is a famous actor, she could have studied acting in college.
+A: University of Pennsylvania offers acting degree and Brooke Shields could have succeeded in that.
+
+Q: Q: A computer can be programmed entirely in Boolean algebra.
+Q: Boolean algebra does not have enough symbols for computers.
+A: Boolean algebra is not enough for computers.
+
+Q: Saint Vincent and the Grenadines is a former English colony.
+Q: The language used in Saint Vincent and the Grenadines is rooted in English.
+A: The language used in English colonies are rooted in English.
+
+Q: 

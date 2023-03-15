@@ -28,8 +28,10 @@ def parse_args():
 
     if args.dataset_name == "com2sense":
         if args.mode == "normal":
-            args.data_filename =  f"./data/{args.dataset_name}/dev.json"
-            args.out_filename = f"./data/{args.dataset_name}/dev_G_normal.pkl_{args.seed}"
+            # args.data_filename =  f"./data/{args.dataset_name}/dev.json"
+            # args.out_filename = f"./data/{args.dataset_name}/dev_G_normal.pkl_{args.seed}"
+            args.data_filename =  f"./data/{args.dataset_name}/dev_modified.json"
+            args.out_filename = f"data/{args.dataset_name}/dev_G_normal_modified.pkl_{args.seed}"
         else:
             args.data_filename = f"./data/{args.dataset_name}/bothdev.Q.json"
             args.out_filename = f"./data/{args.dataset_name}/dev_G_tilde.pkl_{args.seed}"

@@ -9,6 +9,7 @@ from promptv2 import Promptconfig
 # from prompt import Promptconfig
 from generator import Gen_Model
 from treelib import Tree
+from flan_verifier import FlanNLI_Model
 
 
 @dataclass
@@ -80,6 +81,7 @@ class GenerationWrapper:
                         "E_tilde": E_T_tilde,
                         "blf": E_blf,
                         "int": E_int,
+                        "ind" : True
                     })
 
                 new_E_F_list = self.prompt_E_F(parent_node.data["E"], dataclasses.replace(generation_config))
@@ -92,6 +94,7 @@ class GenerationWrapper:
                         "E_tilde": E_F_tilde,
                         "blf": E_blf,
                         "int": E_int,
+                        "ind" : False
                     })
 
         integral_leaf_nodes = [node.identifier for node in G.leaves() if node.data["int"]]
@@ -102,6 +105,9 @@ class GenerationWrapper:
         for node in nodes_before_removal:
             if node in G and node not in nodes_not_to_remove:
                 G.remove_node(node)
+        
+        #### Write the code for removing the nodes for parent, child 
+
 
         return G
 
