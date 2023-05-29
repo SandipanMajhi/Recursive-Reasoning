@@ -54,5 +54,14 @@ Dataset - StrategyQA (dev set - 229 examples)
 | Flan T5 + Flan T5 Verifier | 21 | Method - 2 | 51.52 % |
 | GPT-3 (paper) | | | 60.7% |
 
-Citation of the Ma
+Paper Citation: 
+
+```
+@inproceedings{Jung2022MaieuticPL,
+  title={Maieutic Prompting: Logically Consistent Reasoning with Recursive Explanations},
+  author={Jaehun Jung and Lianhui Qin and Sean Welleck and Faeze Brahman and Chandra Bhagavatula and Ronan Le Bras and Yejin Choi},
+  booktitle={Conference on Empirical Methods in Natural Language Processing},
+  year={2022}
+}
+```
 
